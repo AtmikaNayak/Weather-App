@@ -11,13 +11,13 @@ A weather forecasting application built using Node.js, Express, EJS, and the Ope
 - Weather icons from OpenWeatherMap
 - Error handling for invalid cities
 
-## Tech Stack
-
-- Node.js
-- Express.js
-- EJS
-- Axios
-- OpenWeatherMap API
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenWeatherMap-EB6E4B?style=for-the-badge&logo=openweathermap&logoColor=white" />
+</p>
 
 ## Project Structure
 
