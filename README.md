@@ -1,117 +1,78 @@
-# Weather-App-Algoorbit
+# Weather App
 
-A weather application built with Node.js, Express, and EJS that provides real-time weather information for any city using the OpenWeatherMap API.
-
-## Live Demo
-
-https://weather-app-algoorbit.vercel.app/
-
-## Screenshot
-
-![Weather App](./public/weather-app.png)
+A weather forecasting application built using Node.js, Express, EJS, and the OpenWeatherMap API. Users can search for any city and view real-time weather information including temperature, humidity, weather conditions, and wind speed.
 
 ## Features
 
-- Search weather by city name
-- Real-time weather data from OpenWeatherMap
-- Temperature, humidity, and wind speed details
-- Weather condition icons
-- Country information for searched locations
-- Error handling for invalid city names
-- Clean and responsive user interface
+- City-based weather search
+- Real-time weather information
+- Temperature display in Celsius
+- Humidity and wind speed details
+- Weather icons from OpenWeatherMap
+- Error handling for invalid cities
 
 ## Tech Stack
 
-**Frontend**
-- HTML5
-- CSS3
-- EJS
-
-**Backend**
 - Node.js
 - Express.js
-
-**API**
+- EJS
+- Axios
 - OpenWeatherMap API
 
-**Packages**
-- Axios
-- Dotenv
-- Nodemon
+## Project Structure
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/AtmikaNayak/Weather-App-Algoorbit.git
+```text
+weather/
+├── api/
+│   └── app.js
+├── public/
+├── views/
+├── package.json
+└── README.md
 ```
 
-Navigate to the project directory:
+## Running Locally
 
-```bash
-cd Weather-App-Algoorbit
-```
-
-Install dependencies:
+1. Install dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env` file in the project root:
+2. Create a `.env` file
 
 ```env
-OPENWEATHER_API_KEY=your_api_key_here
+apikey=YOUR_OPENWEATHER_API_KEY
 ```
 
-Start the application:
+3. Start the server
 
 ```bash
 npm start
 ```
 
-For development:
-
-```bash
-npm run dev
-```
-
-Visit:
+4. Open
 
 ```text
 http://localhost:5000
 ```
 
-## Getting an API Key
+## Running Tests
 
-This project uses the OpenWeatherMap API.
+No automated tests are configured for this project.
 
-1. Create an account at https://openweathermap.org/
-2. Generate an API key from https://home.openweathermap.org/api_keys
-3. Add the key to your `.env` file
+## Integration Notes
 
-## Project Structure
+The weather service can be integrated into travel, event planning, or dashboard applications requiring real-time weather data.
 
-```text
-Weather-App-Algoorbit/
-│
-├── api/
-│   └── app.js
-├── public/
-│   ├── style.css
-│   └── weather-app.png
-├── views/
-│   └── index.ejs
-├── .env
-├── .gitignore
-├── package.json
-├── vercel.json
-└── README.md
-```
+### Weather Dashboard
 
-## Author
+![Weather App](public/weather-app.png)
 
-Atmika Nayak
+## Live Demo
 
-GitHub: https://github.com/AtmikaNayak
+https://weather-k148bfnv6-atharvaajoshiis-projects.vercel.app/
+
+## Additional Resources
+
+- OpenWeatherMap API: https://openweathermap.org/api
