@@ -71,7 +71,7 @@ The weather service can be integrated into travel, event planning, or dashboard 
 
 ## Live Demo
 
-https://weather-k148bfnv6-atharvaajoshiis-projects.vercel.app/
+[https://weather-k148bfnv6-atharvaajoshiis-projects.vercel.app/](https://weather-app-algoorbit.vercel.app/)
 
 ## Additional Resources
 
